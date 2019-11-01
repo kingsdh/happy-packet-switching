@@ -5,8 +5,7 @@ College London on 6 November 2019.
 
 ## Live URL
 
-Visit this url at 
-[Gitlab Pages](https://klinamen0.gitlab.io/happy-packet-switching/).
+Visit [Gitlab Pages](https://klinamen0.gitlab.io/happy-packet-switching/).
 
 ## Quick Start
 
@@ -39,3 +38,6 @@ Visit this url at
    ```
    
 4. Link the speaker's `index.html` name to the root `index.html`.
+
+5. Push changes to gitlab, and bear in mind it can take a few minutes
+   for Gitlab Pages to update.
