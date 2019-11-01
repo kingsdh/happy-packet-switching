@@ -39,5 +39,9 @@ Visit [Gitlab Pages](https://klinamen0.gitlab.io/happy-packet-switching/).
    
 4. Link the speaker's `index.html` name to the root `index.html`.
 
-5. Push changes to gitlab, and bear in mind it can take a few minutes
-   for Gitlab Pages to update.
+5. Push changes to gitlab.
+   
+   ```
+   git push
+   ```
+   Bear in mind it can take a few minutes for Gitlab Pages to update.
