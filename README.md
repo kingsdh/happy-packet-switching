@@ -5,13 +5,13 @@ College London on 6 November 2019.
 
 ## Live URL
 
-Visit [Gitlab Pages](https://klinamen0.gitlab.io/happy-packet-switching/).
+Visit [Gitlab Pages](https://kingsddh.gitlab.io/happy-packet-switching/).
 
 ## Quick Start
 
 1. Clone this repository, 
    ```
-   git clone git@gitlab.com:klinamen0/happy-packet-switching.git
+   git clone git@gitlab.com:kingsddh/happy-packet-switching.git
    ```
 2. Talks are stored in the /talks/ directory. To add a new talk,
    create a new directory for each speaker. This is where we'll keep
@@ -26,7 +26,7 @@ Visit [Gitlab Pages](https://klinamen0.gitlab.io/happy-packet-switching/).
    might look something like this.
    
    ```
-	   <div class="slides">
+	    <div class="slides">
 		   <section>
 			   <h1>Dr Daniel Nemenyi</h1>
 			   <h3>Cybernetic Guerilla Warfare</h3>
@@ -34,7 +34,7 @@ Visit [Gitlab Pages](https://klinamen0.gitlab.io/happy-packet-switching/).
 			<section><img class="stretch" src="01.png"></section>
 			<section><img class="stretch" src="02.png"></section>
 			<section><img class="stretch" src="03.png"></section>
-			</div>
+		</div>
    ```
    
 4. Link the speaker's `index.html` name to the root `index.html`.
