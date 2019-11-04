@@ -10,13 +10,13 @@ Visit [Gitlab Pages](https://kingsddh.gitlab.io/happy-packet-switching/).
 ## Quick Start
 
 1. Clone this repository, 
-   ```
+   ```shell
    git clone git@gitlab.com:kingsddh/happy-packet-switching.git
    ```
 2. Talks are stored in the /talks/ directory. To add a new talk,
    create a new directory for each speaker. This is where we'll keep
    their html and images.
-   ```
+   ```shell
    cd talks
    mkdir licklider
    cp nemenyi/index.html licklider/
@@ -25,15 +25,15 @@ Visit [Gitlab Pages](https://kingsddh.gitlab.io/happy-packet-switching/).
    that images have the class stretch, so that they go full screen. It
    might look something like this.
    
-   ```
-	    <div class="slides">
+   ```html
+	   <div class="slides">
 		   <section>
 			   <h1>Dr Daniel Nemenyi</h1>
 			   <h3>Cybernetic Guerilla Warfare</h3>
 		   </section>
-			<section><img class="stretch" src="01.png"></section>
-			<section><img class="stretch" src="02.png"></section>
-			<section><img class="stretch" src="03.png"></section>
+		   <section><img class="stretch" src="01.png"></section>
+		   <section><img class="stretch" src="02.png"></section>
+		   <section><img class="stretch" src="03.png"></section>
 		</div>
    ```
    
@@ -41,7 +41,7 @@ Visit [Gitlab Pages](https://kingsddh.gitlab.io/happy-packet-switching/).
 
 5. Push changes to gitlab.
    
-   ```
+   ```shell
    git push
    ```
    Bear in mind it can take a few minutes for Gitlab Pages to update.
