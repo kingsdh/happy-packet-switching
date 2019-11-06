@@ -203,7 +203,12 @@ body {
   vertical-align: top; }
 
 .reveal small * {
-  vertical-align: top; }
+    vertical-align: top; }
+
+figcaption {
+    font-size: 0.7em;
+    color: #a4a4a4;
+}
 
 /*********************************************
  * LINKS
